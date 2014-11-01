@@ -14,7 +14,7 @@ namespace Sample
 		{
 			base.ViewDidLoad ();
 
-			AFPhotoEditorController.SetAPIKey ("929e0a21022ee6c4", "4e10abef42a46f94");
+			AFPhotoEditorController.SetAPIKey ("your_api_key", "your_secret");
 
 			UIImage image = UIImage.FromFile ("sample.jpg");
 			var editor = new AFPhotoEditorController (image);
